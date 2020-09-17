@@ -1,0 +1,69 @@
+{
+  "ingrediants": [
+    {
+      "id": 1,
+      "ingrediant": "pickles",
+      "price": 0.5
+    },
+    {
+      "id": 2,
+      "ingrediant": "onions",
+      "price": 0.25
+    },
+    {
+      "id": 3,
+      "ingrediant": "tomato",
+      "price": 0.75
+    },
+    {
+      "id": 4,
+      "ingrediant": "lettuce",
+      "price": 0.25
+    },
+    {
+      "id": 5,
+      "ingrediant": "bacon",
+      "price": 2
+    },
+    {
+      "id": 6,
+      "ingrediant": "cheese",
+      "price": 1
+    },
+    {
+      "id": 7,
+      "ingrediant": "beef",
+      "price": 10
+    },
+    {
+      "id": 8,
+      "ingrediant": "ketchup",
+      "price": 0.25
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "kevnrod",
+      "password": 123456
+    },
+    {
+      "id": 2,
+      "username": "michelle",
+      "password": 654321
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "username": "kevnrod",
+      "ingrediants": [
+        "bacon",
+        "cheese",
+        "beef patty",
+        "ketchup"
+      ],
+      "total": 13.25
+    }
+  ]
+}

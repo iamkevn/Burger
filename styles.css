@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font: 1.6rem Helvetica;
+  height: 100%;
+  background-color: #f4f4f4;
+}
+header {
+  width: 95vw;
+  margin: 1rem auto;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: 0.7rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 12vw;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.burger {
+  width: 50vw;
+}
+.ingrediant {
+  width: 35vw;
+  height: 3.5rem;
+  margin: 0.7rem auto;
+  text-align: center;
+}
+.top-bun {
+  background-color: #f1c768;
+  height: 6rem;
+  border-radius: 50px 50px 20px 20px;
+  color: #f4f4f4;
+  font-size: 5rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: 1rem;
+}
+.bttm-bun {
+  background-color: #f1c768;
+  height: 6rem;
+  border-radius: 5px 5px 20px 20px;
+  color: #f4f4f4;
+  font-size: 5rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: 1rem;
+}
+.pickles {
+  color: #c6c62d;
+  height: 5rem;
+  font-family: 'Jua', sans-serif;
+  font-size: 4.5rem;
+  letter-spacing: 2.5rem;
+}
+.cheese {
+  color: #f3d044;
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 4rem;
+  letter-spacing: 4rem;
+  height: 4rem;
+}
+.beef {
+  color: #673323;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 6.5rem;
+  height: 7rem;
+  letter-spacing: 0.8rem;
+}
+.onions {
+  color: #b8727e;
+  font-family: 'Gayathri', sans-serif;
+  height: 3rem;
+  font-size: 3rem;
+  letter-spacing: 3rem;
+}
+.tomato {
+  color: #d13c2f;
+  height: 5rem;
+  font-family: 'Michroma', sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 2rem;
+}
+.lettuce {
+  color: #9cb879;
+  font-family: 'Belleza', sans-serif;
+  height: 5rem;
+  font-size: 5rem;
+  letter-spacing: 4rem;
+}
+.ketchup {
+  color: #751e1c;
+  font-family: 'Wendy One', sans-serif;
+  height: 4rem;
+  font-size: 4rem;
+  letter-spacing: 2rem;
+}
+.bacon {
+  color: #9e292e;
+  font-family: 'Allerta Stencil', sans-serif;
+  height: 5rem;
+  font-size: 5rem;
+  letter-spacing: 3rem;
+}
+.order {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.optional {
+  display: flex;
+  justify-content: space-around;
+}
+h3 {
+  margin: 1rem 0;
+  font-size: 3rem;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+button {
+  width: 20rem;
+  align-self: center;
+  margin: 2rem;
+  border: none;
+  padding: 1rem 3rem;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: none;
+}
+.add-pickles {
+  color: #c6c62d;
+}
+.add-onions {
+  color: #b8727e;
+}
+.add-tomato {
+  color: #d13c2f;
+}
+.add-lettuce {
+  color: #9cb879;
+}
+.add-bacon {
+  color: #9e292e;
+}
+.add-cheese {
+  color: #f3d044;
+}
+.add-beef {
+  color: #673323;
+}
+.add-ketchup {
+  color: #751e1c;
+}
+.remove-pickles {
+  color: #c6c62d;
+}
+.remove-onions {
+  color: #b8727e;
+}
+.remove-tomato {
+  color: #d13c2f;
+}
+.remove-lettuce {
+  color: #9cb879;
+}
+.remove-bacon {
+  color: #9e292e;
+}
+.remove-cheese {
+  color: #f3d044;
+}
+.remove-beef {
+  color: #673323;
+}
+.remove-ketchup {
+  color: #751e1c;
+}
