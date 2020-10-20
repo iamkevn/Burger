@@ -58,12 +58,16 @@
       "id": 1,
       "username": "kevnrod",
       "ingrediants": [
+        "pickles",
+        "onions",
+        "tomato",
+        "lettuce",
         "bacon",
         "cheese",
         "beef patty",
         "ketchup"
       ],
-      "total": 13.25
+      "total": 15
     }
   ]
 }

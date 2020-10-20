@@ -19,17 +19,38 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  padding-left: 1.3rem;
+  border: .5rem solid black;
+  border-radius: 3.5rem 3.5rem 1rem 1rem;
+  border-color: #f1c768;
+}
+
 h1 {
   font-family: 'Rubik Mono One', sans-serif;
+  letter-spacing: 1.2rem;
+  color: #673323;
+  font-size: 2.5rem;
+}
+h2 {
+  font-family: 'Rubik Mono One', sans-serif;
   letter-spacing: 0.7rem;
+  font-size: 2.4rem;
+  color: #673323;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  width: 12vw;
+  width: 14vw;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 main {
